@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Listedesouhaits.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200&display=swap" rel="stylesheet">
+    
+    <title>Liste de souhaits</title>
+</head>
+<body>
+    <div id="divprincipale">
+        <h1>Liste de souhaits</h1>
+        <input type="text" id="ajouter-un-souhait"  class="ajout-de-souhait" placeholder="On Voeux">
+        <button onclick="nouveauSouhait()" class="btn-ajout">Ajouter a la liste</button>
+        <ul id="liste-souhaits" class="menu-liste"></ul>
+    </div>
+<button id="btnLightnDark" onclick="darkMode()"><i class="fa fa-lightbulb-o" aria-hidden="true"></i></button>
+    <script src="Listedesouhaits.js"></script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+body{
+    background-color: #04BFAD;
+}
+
+html,body{
+    box-sizing:border-box;
+    padding:0;
+    font-family: cursive;
+}
+
+.closebtn .icon{
+    float: right;
+}
+.iconNav{
+    display: none;
+}
+.topNav{
+    overflow:hidden;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.topNav a{
+    display:block;
+    float:left;
+    text-align: center;
+    padding:14px 16px;
+    text-decoration: none;
+    font-size:16px;
+
+}
+
+.topNav .icon{
+    display:block;
+    float: right;
+}
+
+.liens{
+    padding: 10px;
+    cursor: pointer;
+}
+.liItems{
+    padding: 10px;
+}
+
+#listeParente{
+    display:flex;
+    color:#05F2C7;
+    background-color: #067373;
+    list-style-type: none;
+}
+
+#theSideNav{
+    height:100%;
+    width:0;
+    position: fixed;
+    z-index:1;
+    top:0;
+    left:0;
+    background-color: #111;
+    overflow-x:hidden;
+    padding-top: 60px;
+    transition: 0.5em;
+}
+
+#theSideNav .closebtn{  
+    position:absolute;
+    top:0;
+    top:25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main{
+    transition: margin-left .5s;
+    padding: 10px;
+}
+@media (min-width:600px){
+    .topNav a{
+        display:none;
+    }
+    .topNav.responsive {
+        position: relative;
+    }
+    .topNav.responsive a{
+        float:none;
+        display:block;
+        text-align:left;
+    }
+    .topNav.responsive a.icon{
+        position:absolute;
+        right:0;
+        top:0;
+    }
+    .iconNav{
+        float:right;
+        display:block;
+    }
+}

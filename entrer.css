@@ -1,0 +1,23 @@
+.erreurs{
+    background-color: #BF9004;
+    color: #025E73;
+    font-size: 70em;
+    text-align: center;
+    margin-top: 30em;
+}
+
+.zodiaque{
+    border:16em solid #BF0449;
+    border-top: #03588C;
+    width: 120em;
+    height: 120em;
+    animation: spin 3s linear infinite;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+
+@keyframes spin{
+    0%{ transform: rotate(0deg);}
+    100%{ transform: rotate(360deg)}
+}

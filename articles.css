@@ -1,0 +1,124 @@
+
+
+#contenairePrincier{
+    display: flex;
+    justify-content: space-between;
+    color: #03A64A;
+}
+
+.sectionArticles{
+    width:70%;
+    text-align: center;
+    border: solid 2px #F25F29;
+    border-radius: 5px;
+    padding:20px;
+    margin-left: 40px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    color:#164059;
+}
+
+.lePanier{
+    flex-wrap:wrap;
+    width:25%;
+    margin-right:40px;
+    margin-left:40px;
+    text-align: center;
+    border:solid 2px #730E16;
+    border-radius:5px;
+    padding: 20px;
+    margin-top: 40px;
+    color:#730E16;
+}
+
+.articles{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.image-article{
+    width:100px;
+    height:100px;
+}
+
+.titre-article{
+    font-size: 35px;
+    color: #164059;
+}
+
+select{
+    padding: 10px;
+    border: solid #164059;
+    border-radius: 10px;
+    width: 100%;margin-top:10px;
+}
+.article-carte{
+    display:block;
+    width:33%;
+    box-shadow:2px 2px 10px 2px #730E16;
+    padding:10px;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.article-carte-panier{
+    color:#F25F29;
+    box-shadow: 2px 2px 10px 2px #730E16;
+    font-size:16px;
+    padding: 20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+}
+.input-quantite{
+    border: solid 2px #03A64A;
+    border-radius:10px;
+    height:20px;
+    padding:10px;
+}
+.prix-para{
+    display:block;
+}
+#panier{
+    padding:0;
+}
+.supprimer-produit{
+    font-size:60px;
+    color:aqua;
+}
+
+.btn-inline-quantite{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+.quantite{
+    font-size:20px;
+    padding-right:10px;
+    padding-left:10px;
+}
+.nom{
+    font-size:18px;
+    color:#F23A29;
+}
+.prix{
+    color:coral;
+    font-size:22px;
+}
+.rechercher{
+    border:none;
+    border-bottom:burlywood solid 2px;
+    outline:none;
+    width:90%;
+    font-size:22px;
+}
+.bloc3-enfant{
+    text-align: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    color: wheat;
+
+}

@@ -1,0 +1,108 @@
+.ajout-de-souhait{
+    width:100%;
+    border:none;
+    outline:none;
+    border-bottom:solid 2px #A60303;
+}
+
+#ajouter-un-souhait{
+    font-size: 18px;
+    color: #F2C8C4;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+#ajouter-un-souhait::placeholder{
+    font-size: 18px;
+    color: #F25757;
+    font-family: 'Noto Sans JP', sans-serif;
+
+}
+
+.btn-ajout{
+    margin-top: 40px;
+    border: none;
+    background-color:#BF8C80 ;
+    color: #F2C8C4;
+    padding: 10px;
+}
+
+.btn-ajout:hover{
+    color: #A60303;
+    background-color:#260101 ;
+    cursor:pointer;
+}
+
+body{
+    padding: 25px;
+    background-color: #0396A6;
+    color: #BF8C80;
+    font-size: 20px;
+}
+.dark-mode{
+    background-color: #0D2F73;
+    color: antiquewhite;
+}
+.liste-element{
+    background-color: #A60303;
+    color: #03738C;
+    font-size: 30px;
+    text-align: left;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.supprimer{
+    background-color: #0396A6;
+    padding: 5px;
+    border-radius: 5px;
+    float:right;
+    margin-right: 20px;
+    text-align: right;
+    transition: 0.3s;
+}
+
+.supprimer:hover{
+    background-color: #260101;
+    color: #BF8C80;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+ul li{
+    cursor: pointer;
+    transition: 0.2s;
+    list-style-type: none;
+    display: flex;
+    font-size: 24px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+ul li:nth-child(odd){
+    background-color: #BF8C80;
+}
+
+ul li:hover{
+    background-color: #A60303;
+}
+
+ul li:checked{
+    text-decoration: line-through;
+    text-align: center;
+}
+
+ul li:checked::before{
+    content:'';
+    position:absolute;
+    border-color: #0D2F73;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 10px;
+    left:16px;
+    transform: rotate(50deg);
+    height: 15px;
+    width: 7px;
+
+}
